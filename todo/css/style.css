@@ -1,0 +1,53 @@
+body{
+    background-color: beige;
+}
+
+
+/* class가 하는 일 -> 보이지 않게 하기 */
+.hidden{
+    display: none;
+}
+
+#login-form, #todo-form, #greeting{
+    font-size: 40pt;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#clock {
+    text-align: center;
+    font-size: 30pt;
+    padding: 20px;
+}
+
+#weather{
+    text-align: center;
+    padding: 10px ;
+}
+
+li{
+    padding:10px;
+}
+
+input {
+    width:400px;
+    height:40px;
+    font-size:20px;
+}
+
+.btn{
+    width:50px;
+    height:25px;
+    font-size:10px;
+}
+
+#todo-list li button{
+    float: right;
+    margin-right: 50px ;
+}
+
+
+ul#todo-list{
+    margin-left: 100px;
+    margin-right: 100px;
+}
